@@ -4,7 +4,7 @@
 
 import os
 import sys
-from time import gmtime, strftime
+from time import gmtime, strftime, time
 import json
 import requests
 import numpy as np
@@ -126,7 +126,8 @@ def plot(data):
 
 def save(image):
     """Save the plot image."""
-    cv2.imwrite(os.environ['IMAGES_DIR'] + '/sensor_data_plot.png', image)
+    filename = '/sensor_data_plot_{}.png'.format(int(time()))
+    cv2.imwrite(os.environ['IMAGES_DIR'] + filename, image)
 
 if __name__ == "__main__":
     save(plot(reduce_data(get_pin_data())))
