@@ -1,12 +1,15 @@
 {
- "package": "save-soil-sensor-data",
+ "package": "save-sensor-data",
  "language": "python",
  "author": "Farmbot.io",
- "description": "Save soil sensor pin data.",
- "version": "0.0.1",
+ "description": "Save sensor pin data.",
+ "version": "0.0.2",
  "min_os_version_major": 3,
  "url": "https://raw.githubusercontent.com/FarmBot-Labs/pin-data-farmware/master/save/manifest.json",
  "zip": "https://github.com/FarmBot-Labs/pin-data-farmware/archive/master.zip",
  "executable": "python",
- "args": ["pin-data-farmware-master/save/save.py"]
+ "args": ["pin-data-farmware-master/save/save.py"],
+ "config": [
+  {"name": "pin", "label": "Sensor pin number", "value": 59 }
+ ]
 }

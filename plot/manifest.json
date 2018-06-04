@@ -1,12 +1,15 @@
 {
- "package": "plot-soil-sensor-data",
+ "package": "plot-sensor-data",
  "language": "python",
  "author": "Farmbot.io",
- "description": "Plot soil sensor pin data.",
- "version": "0.0.2",
+ "description": "Plot sensor pin data.",
+ "version": "0.0.3",
  "min_os_version_major": 3,
  "url": "https://raw.githubusercontent.com/FarmBot-Labs/pin-data-farmware/master/plot/manifest.json",
  "zip": "https://github.com/FarmBot-Labs/pin-data-farmware/archive/master.zip",
  "executable": "python",
- "args": ["pin-data-farmware-master/plot/plot.py"]
+ "args": ["pin-data-farmware-master/plot/plot.py"],
+ "config": [
+  {"name": "pin", "label": "Sensor pin number", "value": 59 }
+ ]
 }
