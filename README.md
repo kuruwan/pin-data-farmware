@@ -5,10 +5,10 @@ Save and plot soil sensor data.
 [Farmware page](https://my.farm.bot/app/farmware) install URL:
 ```
 Save:
-https://raw.githubusercontent.com/FarmBot-Labs/pin-data-farmware/master/save/manifest.json
+https://raw.githubusercontent.com/kuruwan/pin-data-farmware/master/save/manifest.json
 
 Plot:
-https://raw.githubusercontent.com/FarmBot-Labs/pin-data-farmware/master/plot/manifest.json
+https://raw.githubusercontent.com/kuruwan/pin-data-farmware/master/plot/manifest.json
 ```
 
 ## Use
