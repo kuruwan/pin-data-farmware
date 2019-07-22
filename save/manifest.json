@@ -10,6 +10,6 @@
  "executable": "python",
  "args": ["pin-data-farmware-master/save/save.py"],
  "config": [
-  {"name": "pin", "label": "Sensor pin number", "value": 59 }
+  {"name": "pin", "label": "Sensor pin number", "value": 63 }
  ]
 }
