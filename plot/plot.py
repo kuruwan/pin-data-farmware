@@ -17,7 +17,7 @@ RECENT = {'time': None}
 
 def get_env(key, type_=int):
     'Return the value of the namespaced Farmware input variable.'
-    return type_(os.getenv('{}_{}'.format(FARMWARE_NAME, key), 59))
+    return type_(os.getenv('{}_{}'.format(FARMWARE_NAME, key), 63))
 
 def post(wrapped_data):
     """Send the Celery Script command."""
@@ -133,5 +133,5 @@ def save(image):
 
 if __name__ == '__main__':
     PIN = get_env('pin')
-    IS_SOIL_SENSOR = PIN == 59
+    IS_SOIL_SENSOR = PIN == 63
     save(plot(reduce_data(get_pin_data(PIN))))
