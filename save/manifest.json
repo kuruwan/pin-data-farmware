@@ -5,8 +5,8 @@
  "description": "Save sensor pin data.",
  "version": "0.0.2",
  "min_os_version_major": 3,
- "url": "https://raw.githubusercontent.com/FarmBot-Labs/pin-data-farmware/master/save/manifest.json",
- "zip": "https://github.com/FarmBot-Labs/pin-data-farmware/archive/master.zip",
+ "url": "https://raw.githubusercontent.com/kuruwan/pin-data-farmware/master/save/manifest.json",
+ "zip": "https://github.com/kuruwan/pin-data-farmware/archive/master.zip",
  "executable": "python",
  "args": ["pin-data-farmware-master/save/save.py"],
  "config": [
